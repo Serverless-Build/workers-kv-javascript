@@ -1,0 +1,18 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "workers-kv-javascript",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-30",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": true,
+  "kv_namespaces": [
+    {
+      "binding": "KV"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
